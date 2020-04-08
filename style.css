@@ -27,8 +27,6 @@ div.nav ul {
 }
 div.nav li {
     float: left;
-}
-div.nav li {
     display: block;
     padding: 40px 20px;
     text-align: center;
@@ -54,4 +52,25 @@ div.nav li.appointment {
     margin-top: 12px;
     margin-left: 70px;
     margin-bottom: 10px;
+}
+div img.dog-pic {
+    position: absolute;
+    width: 100%
+}
+div.text-on-pic {
+    position: absolute;
+    width: 30%;
+    background-color: rgba(0, 255, 255, 0.3);
+    color: white;
+    padding: 60px;
+    top: 220px;
+    left: 100px;
+}
+.schedule-text {
+    color: rgb(52, 52, 52);
+    background-color: rgb(255, 200, 0);
+    padding: 15px;
+}
+div.pic-after-header {
+    position: relative;
 }
