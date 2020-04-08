@@ -1,0 +1,57 @@
+.bold {
+    font-weight: bold;
+}
+body {
+    margin: 0;
+}
+.parent {
+    margin: 0 auto;
+    width: 1300px;
+    font-family: Arial, serif;
+}
+div.nav {
+    display: inline-block;
+    float: right;
+}
+
+div.nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+div.nav li {
+    float: left;
+}
+div.nav li {
+    display: block;
+    padding: 40px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+div.nav li a {
+    text-decoration: none;
+}
+div.nav li:hover {
+    background-color: rgb(97,43,103);
+}
+div.nav li:hover a {
+    color: white;
+}
+div.nav li.appointment {
+    background-color: rgb(255,185,0);
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 40px;
+}
+.logo {
+    margin-top: 12px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
