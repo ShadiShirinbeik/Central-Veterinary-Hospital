@@ -265,7 +265,7 @@ div.client-box-title a{
     float: left;
 }
 .footer-opening-hours ul li .time {
-    float: right;
+    float: left;
     margin-left: 30px;
 
 }
@@ -274,7 +274,6 @@ div.client-box-title a{
 }
 .footer-icon, .footer-contact-us, .footer-opening-hours, .footer-description {
     width: 25%;
-    margin-right: 30px;
     line-height: 45px;
     font-size: 18px;
 }
