@@ -136,3 +136,50 @@ div a.gallery-box-title:hover:after {
 div a.gallery-box-title:hover {
     color: #342f31;
 }
+.information-box {
+    display: flex;
+    justify-content: center;
+}
+.information-box-left {
+    width: 45%;
+    margin-top: 5%;
+}
+.days-of-the-week {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 5px;
+}
+.times-of-the-week {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+}
+.give-us-a-call {
+    padding-left: 15%;
+    font-size: 35px;
+}
+.information-box-right {
+    width: 45%;
+    margin-top: 8%;
+}
+.emergency-call {
+    background-color: rgb(1,65,74);
+    color: white;
+    padding: 30px;
+    line-height: 60px;
+    font-size: 32px;
+}
+.email-contact {
+    background-color: rgb(0,190,198);
+    color: white;
+    padding: 30px;
+    line-height: 60px;
+    font-size: 32px;
+}
+.phone-logo, .mail-logo {
+    margin-left: 5%;
+}
+.phone-number, .email {
+    padding-left: 12%;
+}
