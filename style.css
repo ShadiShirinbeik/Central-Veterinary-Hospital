@@ -88,6 +88,7 @@ div.cards {
     text-align: center;
     display: inline-block;
     width: 100%;
+    margin-top: 30px;
 }
 div.gallery-box {
     display: inline-block;
@@ -205,4 +206,37 @@ div a.gallery-box-title:hover {
     align-self: center;
     width: 100%;
     font-size: 23px;
+}
+.client-box-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+div.client-box-title a{
+    font-size: xx-large;
+    color: black;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.client-box {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+.client-gallery-box {
+    display: flex;
+    justify-content: center;
+}
+.client-gallery {
+    width: 19%;
+    text-align: center;
+    line-height: 30px;
+    margin: 25px;
+}
+.client-gallery-description {
+    text-align: left;
+    margin-top: 15px;
 }
