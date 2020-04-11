@@ -243,3 +243,41 @@ div.client-box-title a{
 .map {
     margin-top: 30px;
 }
+.footer {
+    background-color: black;
+    display: flex;
+    color: #ffffff;
+    padding: 35px;
+    line-height: 35px;
+}
+.footer p {
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0;
+}
+.footer ul {
+    padding-left: 0 !important;
+}
+.footer-opening-hours ul li {
+    display: flex;
+}
+.footer-opening-hours ul li .day {
+    float: left;
+}
+.footer-opening-hours ul li .time {
+    float: right;
+    margin-left: 30px;
+
+}
+.footer-description img{
+    width: 140px;
+}
+.footer-icon, .footer-contact-us, .footer-opening-hours, .footer-description {
+    width: 25%;
+    margin-right: 30px;
+    line-height: 45px;
+    font-size: 18px;
+}
+.icons-size {
+    font-size: 32px;
+}
